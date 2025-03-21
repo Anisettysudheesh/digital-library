@@ -1,0 +1,334 @@
+/* 
+
+.changepass-content{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    align-items: center;
+    margin-left: 50%;
+   
+}
+.changepass-content h1{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 10px; 
+    color:rgb(1, 1, 1); 
+    width:100%;
+    margin-top:10px;
+    margin-bottom:30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+   
+
+}
+.changepass-form span{
+    font-size: 0.6589rem;
+    font-weight:600;
+    color:#000;
+    margin-top:-35px;
+    margin-left:20px;
+ 
+
+}
+.changepass-form{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    height:410px;
+    width:500px;
+    position:relative;
+    
+}
+.changepass-form input{
+    width: 90%;
+    padding: 0.8rem;
+    border-radius: 10px;
+    margin-left:0.5rem;
+
+}
+.changepass-button-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC8535;
+    width:150px;
+    height: 42px;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    margin-top: -10px;
+
+}
+.changepass-button{
+    
+   
+  
+    font-weight: 700;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;    
+
+background-color: transparent;
+border:none;
+color:white  ;
+font-size:1.2rem
+
+}
+.oldpass{
+    position:absolute;
+    top:7.5rem;
+    left:0rem;
+    background-color: white;
+    font-weight:500
+}
+.newpass{
+    position:absolute;
+    top:12.3rem;
+    left:0rem;
+    background-color: white;
+    font-weight:500
+}
+.confirmpass{
+    position:absolute;
+    top:17.1rem;
+    left:0rem;
+    background-color: white;
+    font-weight:500
+}
+.show-pass{
+    position:absolute;
+    top:23.1rem;
+    left:1rem;
+    background-color: white;
+    font-weight:500;
+}
+.show-pass-check{
+    position:absolute;
+    top:20.8rem;
+    left:-13rem;
+
+} *//* Define the grid layout for the changepass page */
+.changepass-main {
+    display: grid;
+    grid-template-areas: 
+        "navbar navbar"
+        "sidebar content";
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    grid-area: navbar;
+   
+}
+
+.sidebar-nav {
+    grid-area: sidebar;
+  
+}
+
+.changepass-content {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    align-items: center;
+}
+.changepass-content h1{
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 10px; 
+    color:rgb(1, 1, 1); 
+    width:100%;
+    margin-top:10px;
+    margin-bottom:30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+   
+
+}
+.changepass-form span{
+    font-size: 0.6589rem;
+    font-weight:600;
+    color:#000;
+    margin-top:-35px;
+    margin-left:20px;
+ 
+
+}
+.changepass-form{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    height:425px;
+    width:500px;
+    position:relative;
+    
+}
+.changepass-form input{
+    width: 90%;
+    padding: 0.8rem;
+    border-radius: 10px;
+    margin-left:0.5rem;
+
+}
+.changepass-button-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC8535;
+    width:150px;
+    height: 42px;
+    border-radius: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    margin-top: -28px;
+
+}
+.changepass-button{
+    
+   
+  
+    font-weight: 700;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;    
+
+background-color: transparent;
+border:none;
+color:white  ;
+font-size:1.2rem
+
+}
+.oldpass{
+    position:absolute;
+    top:7.5rem;
+    left:0rem;
+    background-color: white;
+    font-weight:500
+}
+.newpass{
+    position:absolute;
+    top:12.3rem;
+    left:0rem;
+    background-color: white;
+    font-weight:500
+}
+.confirmpass{
+    position:absolute;
+    top:17.1rem;
+    left:0rem;
+    background-color: white;
+    font-weight:500
+}
+.show-pass{
+    font-size:1rem;
+    width:fit-content;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+
+   
+    
+   
+}
+.show-pass-container{
+ display:flex;
+ flex-direction: row;
+ gap:0.2rem;
+  margin-top:-30px;
+    margin-left:20px;
+ 
+}
+.show-pass-check{
+    margin-top: 0.85rem;
+    margin-left: 0.5rem;
+  
+
+}
+
+
+
+/* .changepass-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.changepass-form h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.changepass-form span {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: -1rem;
+}
+
+.changepass-form input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.changepass-button-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC8535;
+    width: 150px;
+    height: 42px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.changepass-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.show-pass {
+    font-size: 0.9rem;
+    color: #333;
+    margin-top: -1rem;
+}
+
+.show-pass-check {
+    margin-right: 0.5rem;
+} */
+
+@media(max-width:601px){
+    .changepass-form{
+        width:400px
+    }
+    .changepass-form h1{
+      margin-left:1rem
+    }
+
+}
