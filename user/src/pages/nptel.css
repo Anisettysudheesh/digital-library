@@ -425,18 +425,99 @@ flex-wrap: wrap;
     transform: rotate(-30deg);
 
 }
-@media(max-width:1401px){
-   .navbar-name{
-    width: 75%
-   }
-   .gist-logo-container{
-    width:5%
-   }
-   .nptel-links-container{
-    width:110%
-   }
 
+ @media(max-width:1501px){
+    .navbar-name{
+     width: 100%
+    }
+    .gist-logo-container{
+     width:5%
+    }
+    .nptel-links-container{
+     width:110%
+    }
+    .branches{
+        width:90%
+    }
+    .btech-branches{
+        margin-left: 1rem;
+    }
+    .btech-name{
+        margin-left: -1rem;
+    }
+    .logo-container-nav .tooltip-text-nav {
+       
+        left: 155%;
+       
+       
+    }   
+  
+ 
+ }
+ @media(max-width:1401px){
+    .navbar-name{
+     width: 100%
+    }
+    .gist-logo-container{
+     width:5%
+    }
+    .nptel-links-container{
+     width:110%
+    }
+    .branches{
+        width:90%
+    }
+    .btech-branches{
+        margin-left: 1rem;
+    }
+    .btech-name{
+        margin-left: -1rem;
+    }
+    .logo-container-nav .tooltip-text-nav {
+       
+        left: 155%;
+       
+       
+    }   
+  
+ 
+ }
+ @media(max-width:1351px){
+    .navbar-name{
+     width: 100%
+    }
+    .gist-logo-container{
+     width:5%
+    }
+    .nptel-links-container{
+     width:110%
+    }
+    .branches{
+        width:90%
+    }
+    .btech-branches{
+        margin-left: 1rem;
+    }
+    .btech-name{
+        margin-left: -1rem;
+    }
+    .logo-container-nav .tooltip-text-nav {
+       
+        left: 155%;
+       
+       
+    }   
+  
+ 
+ }
+ @media(max-width:1301px){
+    .navbar-name{
+     width: 100%
+    }
+    .gist-logo-container{
+     width:5
 }
+ }
 @media(max-width:1280px){
     .navbar-name{
      width:88%
