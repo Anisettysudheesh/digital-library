@@ -40,7 +40,7 @@ body::before {
 }
 .nav-img{
     width: 100%;
-    height: 65px;
+    /* height: 65px; */
    
     
 }
@@ -58,11 +58,12 @@ body::before {
    
 
 }
+
 .gist-logo-container{
     display: flex;
     flex-direction:column;
     position:relative;
-    width:4%
+    width:5%
 
 }
 .estd{
@@ -129,7 +130,7 @@ body::before {
     position: fixed;
     top: 5.5rem;
     left: 0;
-    height: 90%;
+    height: 90vh;
     width: 5%;
     background: #ffffff;
     padding: 6px 14px;
@@ -143,7 +144,7 @@ body::before {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 85vh;
+    height: 80vh;
     gap: 3rem;
    
 }
@@ -967,9 +968,28 @@ flex-wrap: wrap;
     .logo-container-nav .tooltip-text-nav {
        
         left: 325%;
+        width: 100px;
+        background-color: #eb7d28f0;
+        color: #fff;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0px 5px 0px;
+        position: absolute;
+        z-index: 1;
+        bottom: -30%; /* Position the tooltip above the logo */
+        left: 130%;
+        margin-left: -50px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-size: 0.6rem;
        
        
     }  
+ 
+    /* .logo-container-nav:hover .tooltip-text-nav {
+        display:none
+        
+    } */
     .navbar-name{
         width:83%;
         height:60px
@@ -984,15 +1004,19 @@ flex-wrap: wrap;
         height:60px;
 
     }
-    .nav-img{
+ .gist-logo-container img{
+    height:47px
+ }
+    /* .nav-img{
         height:40px;
         width:55px
-    }
+    } */
     .nba-logo{
         width:30px;
         height:30px;
        margin-left:5px
     }
+
     .naac-logo{
         width:40px;
         height:30px;
@@ -1049,6 +1073,10 @@ flex-wrap: wrap;
         width:60px;
         height:40px
     }
+    .navbar-img{
+        width:100%;
+        height:60px
+    }
     .nptel-page-content h1{
         font-size:1rem;
     }
@@ -1104,7 +1132,188 @@ flex-wrap: wrap;
     margin-top:2px
    }
     .nptel-links-container{
-    width:130%
+    width:150%
+    }
+
+}
+@media(max-width:501px){
+    .navbar-name h1{
+        font-size:0.7rem;
+    }
+    .navbar-name{
+        gap:0.3rem;
+        width:75%;
+        height:50px
+    }
+    
+    .navbar-name h2{
+        font-size:0.7rem
+    }
+    .add-nav{
+        font-size:0.25rem
+    }
+    .logo-container-nav .tooltip-text-nav {
+       
+        left: 345%;
+        width: 100px;
+        background-color: #eb7d28f0;
+        color: #fff;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0px 5px 0px;
+        position: absolute;
+        z-index: 1;
+        bottom: -30%; /* Position the tooltip above the logo */
+        left: 130%;
+        margin-left: -50px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-size: 0.6rem;
+       
+       
+    }  
+ 
+    /* .logo-container-nav:hover .tooltip-text-nav {
+        display:none
+        
+    } */
+    
+    .navbar{
+        height:50px
+    }
+    .gist-logo-container{
+        width:8%;
+        height:50px
+    }
+    .gist-logo-container img{
+        height:45px
+    }
+    .estd{
+        font-size:0.4rem;
+        left:0.4rem
+    }
+    .logos{
+        height:60px;
+
+    }
+    .nba-logo{
+        width:25px;
+        height:25px;
+       margin-left:5px
+    }
+    .naac-logo{
+        width:35px;
+        height:25px;
+        margin-right:0px;
+        margin-bottom:11px
+    }
+    .CSE-back,
+    .ECE-back,
+    .MECH-back,
+    .CIVIL-back,
+    .EEE-back,
+    .SH-back {
+       
+        width:110px;
+        
+    }
+    .dce-back,
+    .dme-back,
+    .deee-back,
+    .dcme-back,
+    .dece-back{
+       
+        width:110px;
+  
+    }
+    .explore-matter{
+        font-size:0.5rem;
+        margin-top: 0.2rem;
+    
+    }
+    .line{
+       display:none
+    }
+    .arrow-1{   
+        display:none
+    }
+    .arrow-2{
+        display:none
+    }
+    .swayam-link img{
+        width:60px;
+        height:40px
+        
+    }
+    .nptel-link img{
+        width:60px;
+        height:40px
+    }
+    .nptel-page-content h1{
+        font-size:1rem;
+    }
+    .nptel-page-content h1  img{
+        width:30px;
+        height:20px;
+
+    }
+    .nptel-page-content{
+margin-left:-1.5rem
+    }
+
+    .nptel-matter{
+        font-size:0.5rem
+    }
+    .btech-name{
+        font-size:1rem
+    }
+    .CSE-back,
+    .ECE-back,
+    .MECH-back,
+    .CIVIL-back,
+    .EEE-back,
+    .SH-back {
+       
+        width:55px;
+        
+    }
+    .dce-back,
+    .dme-back,
+    .deee-back,
+    .dcme-back,
+    .dece-back{
+       
+        width:55px;
+  
+    }
+    .CSE-back .span,
+    .ECE-back .span,
+    .MECH-back .span,
+    .CIVIL-back .span,
+    .EEE-back .span,
+    .SH-back .span {
+       
+      font-size:0.9rem
+        
+    }
+    .dce-back .span,
+    .dme-back .span,
+    .deee-back .span,
+    .dcme-back .span,
+    .dece-back .span{
+       
+        font-size:0.9rem
+    }
+    .eb{
+        width:50px;
+        height:50px;
+        margin-top: -4px;
+    }
+    .nptel-links-container{
+        gap: 1rem;
+        width: 100%;
+      
+        justify-content: end;
     }
 
 }
