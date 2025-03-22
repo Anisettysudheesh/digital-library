@@ -69,7 +69,7 @@ function Ebooks() {
                        
                 
             <div className="nptel-page-content">
-            <h1><img src={ebookpagelogo} alt="" width="70px" height="70px" style={{marginTop:"-4px"}}></img>e-Books</h1>
+            <h1><img src={ebookpagelogo} alt=""className="eb" ></img>e-Books</h1>
             <div className="btech-branches">
                     <div className="btech-name">
                                    B.Tech:
