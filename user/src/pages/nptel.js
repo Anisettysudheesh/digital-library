@@ -119,7 +119,7 @@ and Roorkee).
                      </div>
             <div className="btech-branches">
                 <div className="btech-name" >
-               Diplamo:
+               Diploma:
 
                 </div>
           
@@ -143,7 +143,7 @@ and Roorkee).
             </div>
             <div className="nptel-links-container">
                         <div className='explore-courses'>
-                            <div className='explore-matter'>You can explore more cources here --</div>
+                            <div className='explore-matter'>You can explore more cources here </div>
                             <div className='line'> 
                                 
                             </div>

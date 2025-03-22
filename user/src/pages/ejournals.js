@@ -97,7 +97,7 @@ function Ejournals() {
             </div>
             <div className="btech-branches">
                 <div className="btech-name">
-                          Diplamo:
+                          Diploma:
 
                 </div>
                 <div className="branches">
