@@ -253,7 +253,7 @@ body::before {
     grid-area: content;
     display: flex;
     flex-direction: column;
-    width:90%;
+    width:100%;
     /* justify-content: center; */
    /* margin-left:3rem ;   */
    margin-top:4.8rem
@@ -441,7 +441,7 @@ flex-wrap: wrap;
 
  @media(max-width:1501px){
     .navbar-name{
-     width: 67%
+     width: 100%
     }
     .navbar-name h1{
         font-size:1.8rem
@@ -464,7 +464,7 @@ flex-wrap: wrap;
        
     }   
     .nptel-page-content{
-        width:70%
+        width:100%
     }
     .sidebar-menu-nav{
         height:62vh
@@ -477,9 +477,7 @@ flex-wrap: wrap;
     .gist-logo-container{
      width:5%
     }
-    .nptel-links-container{
-     width:110%
-    }
+    
     .branches{
         width:90%
     }
@@ -499,18 +497,14 @@ flex-wrap: wrap;
  
 }
  @media(max-width:1351px){
-    .navbar-name{
-     width: 81%
-    }
+    
    
     .gist-logo-container{
      width:5%
     }
-    .nptel-links-container{
-     width:110%
-    }
+   
     .branches{
-        width:90%
+        width:100%
     }
     .btech-branches{
         margin-left: 1rem;
@@ -528,9 +522,9 @@ flex-wrap: wrap;
  
  }
  @media(max-width:1301px){
-    .navbar-name{
-     width: 81%
-    }
+    /* .navbar-name{
+     width: 100%
+    } */
     .gist-logo-container{
      width:5%
 }
@@ -557,9 +551,7 @@ flex-wrap: wrap;
        
     }   
    
-    .nptel-page-content{
-        width: 70%
-    }
+   
   
  
  }
@@ -590,9 +582,9 @@ flex-wrap: wrap;
  
  }
  @media(max-width:1151px){
-    .navbar-name{
+    /* .navbar-name{
      width:88%
-    }
+    } */
     .gist-logo-container{
         width:5%
     }
@@ -697,12 +689,10 @@ flex-wrap: wrap;
        
        
     }  
-    .navbar-name{
+    /* .navbar-name{
         width:85%
-    }
-    .gist-logo-container{
-        width:7%
-    }
+    } */
+   
     .CSE-back,
     .ECE-back,
     .MECH-back,
@@ -736,12 +726,16 @@ flex-wrap: wrap;
        
        
     }  
-    .navbar-name{
-        width:85%
-    }
     .gist-logo-container{
-        width:8%
+        width:7%
     }
+    .logos{
+        width:5.3%
+    }
+    /* .navbar-name{
+        width:85%
+    } */
+   
     .CSE-back,
     .ECE-back,
     .MECH-back,
@@ -761,23 +755,7 @@ flex-wrap: wrap;
         width:120px;
   
     }
-    .explore-matter{
-        font-size:0.8rem
-    }
-    .line{
-        width:30px;
-        left:15.5rem;
-        top:0.6rem
-    }
-    .arrow-1{
-        width:15px;
-        left:16.5rem
-    }
-    .arrow-2{
-        width:15px;
-        left:16.5rem;
-        top:0.9rem
-    }
+   
  }
  @media(max-width:751px){
     .navbar-name h1{
@@ -792,12 +770,10 @@ flex-wrap: wrap;
        
        
     }  
-    .navbar-name{
+    /* .navbar-name{
         width:85%
-    }
-    .gist-logo-container{
-        width:9%
-    }
+    } */
+   
     .CSE-back,
     .ECE-back,
     .MECH-back,
@@ -832,12 +808,10 @@ flex-wrap: wrap;
        
        
     }  
-    .navbar-name{
+    /* .navbar-name{
         width:85%
-    }
-    .gist-logo-container{
-        width:8%
-    }
+    } */
+   
     .CSE-back,
     .ECE-back,
     .MECH-back,
@@ -886,12 +860,10 @@ flex-wrap: wrap;
        
        
     }  
-    .navbar-name{
+    /* .navbar-name{
         width:85%
-    }
-    .gist-logo-container{
-        width:8%
-    }
+    } */
+   
     .CSE-back,
     .ECE-back,
     .MECH-back,
@@ -922,6 +894,12 @@ flex-wrap: wrap;
     .nptel-matter{
         font-size:1rem
     }
+    .gist-logo-container{
+        width:9%
+    }
+    .logos{
+        width:6.5%
+    }
  }
 @media(max-width:601px){
     .navbar-name h1{
@@ -949,9 +927,7 @@ flex-wrap: wrap;
     .navbar{
         height:70px
     }
-    .gist-logo-container{
-        width:9%
-    }
+    
     .logos{
         height:70px;
 
@@ -1001,9 +977,9 @@ flex-wrap: wrap;
     .nptel-link img{
         width:90px
     }
-    .nptel-page-content{
+    /* .nptel-page-content{
         width:75%
-    }
+    } */
 
 }
 @media(max-width:551px){
@@ -1045,7 +1021,7 @@ flex-wrap: wrap;
         
     } */
     .navbar-name{
-        width:83%;
+        /* width:83%; */
         height:60px
     }
     .navbar{
@@ -1293,20 +1269,7 @@ flex-wrap: wrap;
         width:110px;
   
     }
-    .explore-matter{
-        font-size:0.5rem;
-        margin-top: 0.2rem;
     
-    }
-    .line{
-       display:none
-    }
-    .arrow-1{   
-        display:none
-    }
-    .arrow-2{
-        display:none
-    }
     .swayam-link img{
         width:60px;
         height:40px
@@ -1517,9 +1480,7 @@ margin-left:-1.5rem;
         width:60px;
         height:40px
     }
-    .nptel-links-container{
-        width:110%
-    }
+   
     .nptel-page-content h1{
         font-size:1rem;
     }
