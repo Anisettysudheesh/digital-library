@@ -1351,8 +1351,10 @@ margin-left:-1.5rem
         font-size:0.25rem
     }
     .eb{
-        margin-top:0.1rem
+        margin-top:0rem;
+      
     }
+
     .logo-container-nav .tooltip-text-nav {
        
         left: 365%;
@@ -1473,7 +1475,8 @@ margin-left:-1.5rem
     }
     .nptel-page-content h1  img{
         width:30px;
-        height:20px;
+        height:25px;
+        /* margin-top:-0.2rem */
 
     }
     .nptel-page-content{
