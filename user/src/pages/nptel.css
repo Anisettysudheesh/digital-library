@@ -1334,6 +1334,149 @@ margin-left:-1.5rem
     }
 
 }
+@media(max-width:451px){
+    .navbar-name h1{
+        font-size:0.7rem;
+    }
+    .navbar-name{
+        gap:0.3rem;
+        /* width:75%; */
+        height:50px
+    }
+    
+    .navbar-name h2{
+        font-size:0.6rem
+    }
+    .add-nav{
+        font-size:0.25rem
+    }
+    .logo-container-nav .tooltip-text-nav {
+       
+        left: 365%;
+        width: 80px;
+        background-color: #eb7d28f0;
+        color: #fff;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0px 5px 0px;
+        position: absolute;
+        z-index: 1;
+        bottom: -30%; /* Position the tooltip above the logo */
+        left: 130%;
+        margin-left: -50px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-size: 0.4rem;
+       
+       
+    }  
+    .nptel-logo-nav,
+    .book-logo-nav,
+    .journal-logo-nav,
+    .logout-logo-nav,
+    .password-logo-nav,
+    .qp-logo-nav {
+        width: 30px;
+        height: 30px;
+        transition:0.2s ease-in-out
+    }
+    p.qp{
+       
+        top:6px;
+        left:6.6px;
+        font-size:0.4rem
+     
+    }
+ 
+    /* .logo-container-nav:hover .tooltip-text-nav {
+        display:none
+        
+    } */
+    
+    .navbar{
+        height:50px
+    }
+    .gist-logo-container{
+        /* width:8%; */
+        height:50px
+    }
+    .gist-logo-container img{
+        height:45px
+    }
+    .estd{
+        font-size:0.4rem;
+        left:0.4rem
+    }
+    .logos{
+        height:60px;
+
+    }
+    .nba-logo{
+        width:25px;
+        height:25px;
+       margin-left:5px
+    }
+    .naac-logo{
+        width:35px;
+        height:25px;
+        margin-right:0px;
+        margin-bottom:11px
+    }
+    .CSE-back,
+    .ECE-back,  
+    .MECH-back,
+    .CIVIL-back,
+    .EEE-back,
+    .SH-back {
+       
+        width:55px;
+        
+    }
+    .dce-back,
+    .dme-back,
+    .deee-back,
+    .dcme-back,
+    .dece-back{
+       
+        width:55px;
+  
+    }
+    .explore-matter{
+        font-size:0.5rem;
+        margin-top: 0.2rem;
+    
+    }
+    .line{
+       display:none
+    }
+    .arrow-1{   
+        display:none
+    }
+    .arrow-2{
+        display:none
+    }
+    .swayam-link img{
+        width:60px;
+        height:40px
+        
+    }
+    .nptel-link img{
+        width:60px;
+        height:40px
+    }
+    .nptel-page-content h1{
+        font-size:1rem;
+    }
+    .nptel-page-content h1  img{
+        width:30px;
+        height:20px;
+
+    }
+    .nptel-page-content{
+margin-left:-1.5rem
+    }
+
+}
 
 
 
