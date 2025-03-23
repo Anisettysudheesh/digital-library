@@ -1352,7 +1352,7 @@ margin-left:-1.5rem
     }
     .eb{
         margin-top:0rem;
-      
+       
     }
 
     .logo-container-nav .tooltip-text-nav {
@@ -1414,7 +1414,7 @@ margin-left:-1.5rem
     }
     .logos{
         height:60px;
-        width:10%
+        width:8%
 
     }
     .nba-logo{
@@ -1423,8 +1423,8 @@ margin-left:-1.5rem
        margin-left:5px
     }
     .naac-logo{
-        width:35px;
-        height:25px;
+        width:32px;
+        height:30px;
         margin-right:0px;
         margin-bottom:11px
     }
@@ -1435,7 +1435,7 @@ margin-left:-1.5rem
     .EEE-back,
     .SH-back {
        
-        width:55px;
+        width:60px;
         
     }
     .dce-back,
@@ -1444,7 +1444,7 @@ margin-left:-1.5rem
     .dcme-back,
     .dece-back{
        
-        width:55px;
+        width:60px;
   
     }
     .explore-matter{
@@ -1469,6 +1469,9 @@ margin-left:-1.5rem
     .nptel-link img{
         width:60px;
         height:40px
+    }
+    .nptel-links-container{
+        width:110%
     }
     .nptel-page-content h1{
         font-size:1rem;
