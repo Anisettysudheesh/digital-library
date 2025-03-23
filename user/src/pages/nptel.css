@@ -1326,7 +1326,7 @@ flex-wrap: wrap;
     }
     .nptel-page-content{
 margin-left:-1.5rem;
-width:90%
+
     }
 
     .nptel-matter{
@@ -1377,12 +1377,7 @@ width:90%
         height:50px;
         margin-top: -4px;
     }
-    .nptel-links-container{
-        gap: 1rem;
-        width: 100%;
-      
-        justify-content: end;
-    }
+   
 
 }
 @media(max-width:451px){
@@ -1536,7 +1531,7 @@ width:90%
     }
     .nptel-page-content{
 margin-left:-1.5rem;
-width:90%
+
     }
 
 }
