@@ -142,24 +142,26 @@ and Roorkee).
                     </div>
             </div>
             <div className="nptel-links-container">
-                        <div className='explore-courses'>
+                        
                             <div className='explore-matter'>You can explore more cources here </div>
-                            <div className='line'> 
+                            <div className='nptel-logos-container'>
+                                <div className="nptel-link">
+                                    <a href="https://nptel.ac.in/" target="_blank" rel="noreferrer"><img  src={nptellinklogo}  alt="nptel-logo"></img></a>
+
+                                </div>
+                                <div className="swayam-link">
+                                    <a href="https://swayam.gov.in/" target="_blank" rel="noreferrer"><img src={swayamlinklogo} alt=""></img></a>
+
+                                </div>
+                            </div>
+                          
                                 
                             </div>
-                            <div className='arrow-1'></div>
-                            <div className='arrow-2'></div>
-                        </div>
-                        <div className="nptel-link">
-                            <a href="https://nptel.ac.in/" target="_blank" rel="noreferrer"><img  src={nptellinklogo}  alt="nptel-logo"></img></a>
+                            
+                       
+                        
+                      
 
-                        </div>
-                        <div className="swayam-link">
-                            <a href="https://swayam.gov.in/" target="_blank" rel="noreferrer"><img src={swayamlinklogo} alt=""></img></a>
-
-                        </div>
-
-            </div>
             
                 
                

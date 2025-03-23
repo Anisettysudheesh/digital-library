@@ -15,6 +15,9 @@ body::before {
     position: fixed;
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: url("../logos/gist.jpeg") no-repeat center center fixed;
      background-size:30%; 
     opacity: 0.15; /* Adjust the opacity of the image here */
@@ -40,7 +43,7 @@ body::before {
 }
 .nav-img{
     width: 100%;
-    /* height: 65px; */
+    height: 60px;
    
     
 }
@@ -62,15 +65,16 @@ body::before {
 .gist-logo-container{
     display: flex;
     flex-direction:column;
-    position:relative;
+   
     width:5%
 
 }
 .estd{
-    position:absolute;
+    display:flex;
+    justify-content: center;
+   
     font-size:0.5rem;
-    bottom:0;
-    left:0.7rem;
+   
     font-weight:bold;
     
 
@@ -374,10 +378,15 @@ flex-wrap: wrap;
 }
 .nptel-links-container{
     display:flex;
-    justify-content: center;
-    gap:2rem;
-    position:relative;
-    width:100%
+    flex-direction: column ;
+     justify-content: center;
+     align-items: center
+  
+}
+.nptel-logos-container{
+    display: flex;
+    
+    gap:1rem
 }
 .nptel-link img,
 .swayam-link img{
@@ -388,21 +397,12 @@ flex-wrap: wrap;
    
   
 }
-.explore-courses{
-    display:flex;
-    justify-content:start;
-    position:absolute;
-    left:6.5rem;
-    font-size:1rem;
-    font-weight:500 ;
-    top:0.9rem
 
-}
 .explore-matter{
-    margin-left:1rem;
-    font-size:1rem;
-    font-weight:500;
-}
+   
+    font-size:1.2rem;
+    font-weight:700;
+} 
 .line{
     width:50px;
     height:3px;
@@ -434,14 +434,13 @@ flex-wrap: wrap;
 
  @media(max-width:1501px){
     .navbar-name{
-     width: 100%
+     width: 67%
     }
-    .gist-logo-container{
-     width:5%
+    .navbar-name h1{
+        font-size:1.8rem
     }
-    .nptel-links-container{
-     width:110%
-    }
+   
+  
     .branches{
         width:90%
     }
@@ -457,13 +456,17 @@ flex-wrap: wrap;
        
        
     }   
+    .nptel-page-content{
+        width:70%
+    }
+    .sidebar-menu-nav{
+        height:62vh
+    }
   
  
  }
  @media(max-width:1401px){
-    .navbar-name{
-     width: 100%
-    }
+
     .gist-logo-container{
      width:5%
     }
@@ -487,11 +490,12 @@ flex-wrap: wrap;
     }   
   
  
- }
+}
  @media(max-width:1351px){
     .navbar-name{
-     width: 100%
+     width: 81%
     }
+   
     .gist-logo-container{
      width:5%
     }
@@ -518,22 +522,18 @@ flex-wrap: wrap;
  }
  @media(max-width:1301px){
     .navbar-name{
-     width: 100%
+     width: 81%
     }
     .gist-logo-container{
-     width:5
+     width:5%
 }
  }
-@media(max-width:1280px){
-    .navbar-name{
-     width:88%
-    }
+@media(max-width:1251px){
+   
     .gist-logo-container{
         width:5%
     }
-    .nptel-links-container{
-        width:130%
-    }
+   
     .branches{
         width:90%
     }
@@ -549,6 +549,10 @@ flex-wrap: wrap;
        
        
     }   
+   
+    .nptel-page-content{
+        width: 70%
+    }
   
  
  }
@@ -559,10 +563,7 @@ flex-wrap: wrap;
     .gist-logo-container{
         width:5%
     }
-    .nptel-links-container{
-        width:150%;
-        margin-top:1rem
-    }
+   
     .branches{
         width:90%
     }
@@ -588,10 +589,7 @@ flex-wrap: wrap;
     .gist-logo-container{
         width:5%
     }
-    .nptel-links-container{
-        width:160%;
-        margin-top:1rem
-    }
+    
     .branches{
         width:90%
     }
@@ -619,7 +617,7 @@ flex-wrap: wrap;
  }
  @media(max-width:1001px){
     .navbar-name h1{
-        font-size:2rem
+        font-size:1.7rem
     }
     .explore-courses{
         left:-1rem
@@ -633,6 +631,9 @@ flex-wrap: wrap;
            
            
         }  
+        .add-nav{
+            font-size:0.7rem
+        }
 
  }
 
@@ -653,12 +654,32 @@ flex-wrap: wrap;
     .add-nav{
         font-size:0.6rem
     }
+    .CSE-back,
+    .ECE-back,
+    .MECH-back,
+    .CIVIL-back,
+    .EEE-back,
+    .SH-back {
+       
+        width:140px;
+        
+    }
+    .dce-back,
+    .dme-back,
+    .deee-back,
+    .dcme-back,
+    .dece-back{
+       
+        width:140px;
+  
+    }
+   
 
  }
  @media(max-width:851px){
 
     .navbar-name h1{
-        font-size:1.6rem
+        font-size:1.4rem
     }
     .add-nav{
         font-size:0.6rem
@@ -674,6 +695,25 @@ flex-wrap: wrap;
     }
     .gist-logo-container{
         width:7%
+    }
+    .CSE-back,
+    .ECE-back,
+    .MECH-back,
+    .CIVIL-back,
+    .EEE-back,
+    .SH-back {
+       
+        width:130px;
+        
+    }
+    .dce-back,
+    .dme-back,
+    .deee-back,
+    .dcme-back,
+    .dece-back{
+       
+        width:130px;
+  
     }
  }
  @media(max-width:801px){
@@ -702,7 +742,7 @@ flex-wrap: wrap;
     .EEE-back,
     .SH-back {
        
-        width:140px;
+        width:120px;
         
     }
     .dce-back,
@@ -711,7 +751,7 @@ flex-wrap: wrap;
     .dcme-back,
     .dece-back{
        
-        width:140px;
+        width:120px;
   
     }
     .explore-matter{
@@ -734,10 +774,10 @@ flex-wrap: wrap;
  }
  @media(max-width:751px){
     .navbar-name h1{
-        font-size:1.4rem
+        font-size:1.3rem
     }
     .add-nav{
-        font-size:0.6rem
+        font-size:0.5rem
     }
     .logo-container-nav .tooltip-text-nav {
        
@@ -751,11 +791,30 @@ flex-wrap: wrap;
     .gist-logo-container{
         width:9%
     }
+    .CSE-back,
+    .ECE-back,
+    .MECH-back,
+    .CIVIL-back,
+    .EEE-back,
+    .SH-back {
+       
+        width:110px;
+        
+    }
+    .dce-back,
+    .dme-back,
+    .deee-back,
+    .dcme-back,
+    .dece-back{
+       
+        width:110px;
+  
+    }
     
  }
  @media(max-width:700px){
     .navbar-name h1{
-        font-size:1.3rem
+        font-size:1.2rem
     }
     .add-nav{
         font-size:0.54rem
@@ -779,7 +838,7 @@ flex-wrap: wrap;
     .EEE-back,
     .SH-back {
        
-        width:130px;
+        width:100px;
         
     }
     .dce-back,
@@ -788,12 +847,10 @@ flex-wrap: wrap;
     .dcme-back,
     .dece-back{
        
-        width:130px;
+        width:100px;
   
     }
-    .explore-matter{
-        font-size:0.7rem
-    }
+   
     .line{
         width:30px;
         left:15.5rem;
@@ -811,7 +868,7 @@ flex-wrap: wrap;
  }
  @media(max-width:651px){
     .navbar-name h1{
-        font-size:1.2rem
+        font-size:1.1rem
     }
     .add-nav{
         font-size:0.5rem
@@ -835,7 +892,7 @@ flex-wrap: wrap;
     .EEE-back,
     .SH-back {
        
-        width:120px;
+        width:90px;
         
     }
     .dce-back,
@@ -844,32 +901,19 @@ flex-wrap: wrap;
     .dcme-back,
     .dece-back{
        
-        width:120px;
+        width:90px;
   
     }
-    .explore-matter{
-        font-size:0.7rem
-    }
-    .line{
-        width:30px;
-        left:15.5rem;
-        top:0.6rem
-    }
-    .arrow-1{
-        width:15px;
-        left:16.5rem
-    }
-    .arrow-2{
-        width:15px;
-        left:16.5rem;
-        top:0.9rem
-    }
+    
     .swayam-link img{
         width:90px
         
     }
     .nptel-link img{
         width:90px
+    }
+    .nptel-matter{
+        font-size:1rem
     }
  }
 @media(max-width:601px){
@@ -882,6 +926,9 @@ flex-wrap: wrap;
     .add-nav{
         font-size:0.4rem
     }
+    .nav-img{
+        height:50px
+    }
     .logo-container-nav .tooltip-text-nav {
        
         left: 265%;
@@ -889,7 +936,7 @@ flex-wrap: wrap;
        
     }  
     .navbar-name{
-        width:81%;
+ 
         height:70px
     }
     .navbar{
@@ -909,7 +956,7 @@ flex-wrap: wrap;
     .EEE-back,
     .SH-back {
        
-        width:110px;
+        width:80px;
         
     }
     .dce-back,
@@ -918,37 +965,37 @@ flex-wrap: wrap;
     .dcme-back,
     .dece-back{
        
-        width:110px;
+        width:80px;
   
     }
-    .explore-matter{
-        font-size:0.7rem;
-        margin-top: 0.2rem;
-    
-    }
-    .line{
-       display:none
-    }
-    .arrow-1{
-        width:15px;
-        left:13.7rem;
-        top:0.4rem
-    
-
-}
-
-    .arrow-2{
-        width:15px;
-        left:13.7rem;
-        top:0.9rem
+    .CSE-back .span,
+    .ECE-back .span,
+    .MECH-back .span,
+    .CIVIL-back .span,
+    .EEE-back .span,
+    .SH-back .span {
+       
+      font-size:1.3rem
         
     }
+    .dce-back .span,
+    .dme-back .span,
+    .deee-back .span,
+    .dcme-back .span,
+    .dece-back .span{
+       
+        font-size:1.3rem
+    }
+   
     .swayam-link img{
         width:90px
         
     }
     .nptel-link img{
         width:90px
+    }
+    .nptel-page-content{
+        width:75%
     }
 
 }
@@ -1005,12 +1052,9 @@ flex-wrap: wrap;
 
     }
  .gist-logo-container img{
-    height:47px
+    height:40px
  }
-    /* .nav-img{
-        height:40px;
-        width:55px
-    } */
+    
     .nba-logo{
         width:30px;
         height:30px;
@@ -1042,28 +1086,8 @@ flex-wrap: wrap;
         width:110px;
   
     }
-    .explore-matter{
-        font-size:0.5rem;
-        margin-top: 0.2rem;
-    
-    }
-    .line{
-       display:none
-    }
-    .arrow-1{
-        width:10px;
-        left:10.2rem;
-        top:0.3rem
-    
-
-}
-
-    .arrow-2{
-        width:10px;
-        left:10.2rem;
-        top:0.6rem
-        
-    }
+     
+   
     .swayam-link img{
         width:60px;
         height:40px
@@ -1131,9 +1155,28 @@ flex-wrap: wrap;
    .eb{
     margin-top:2px
    }
-    .nptel-links-container{
-    width:150%
-    }
+   .nptel-logo-nav,
+   .book-logo-nav,
+   .journal-logo-nav,
+   .logout-logo-nav,
+   .password-logo-nav,
+   .qp-logo-nav {
+       width: 30px;
+       height: 30px;
+       transition:0.2s ease-in-out
+   }
+   p.qp{
+      
+       top:6px;
+       left:6.6px;
+       font-size:0.4rem
+    
+   }
+   .sidebar-menu-nav{
+    height:75vh
+   }
+   
+    
 
 }
 @media(max-width:501px){
@@ -1203,7 +1246,7 @@ flex-wrap: wrap;
         height:50px
     }
     .gist-logo-container img{
-        height:45px
+        height:35px
     }
     .estd{
         font-size:0.4rem;
@@ -1339,16 +1382,17 @@ margin-left:-1.5rem
         font-size:0.7rem;
     }
     .navbar-name{
-        gap:0.3rem;
+        gap:0.5rem;
         /* width:75%; */
         height:50px
     }
     
     .navbar-name h2{
-        font-size:0.6rem
+        font-size:0.6rem;
+    margin-bottom:0px
     }
     .add-nav{
-        font-size:0.25rem
+        font-size:0.3rem
     }
     .eb{
         margin-top:0rem;
@@ -1406,7 +1450,7 @@ margin-left:-1.5rem
         height:50px
     }
     .gist-logo-container img{
-        height:45px
+        height:35px
     }
     .estd{
         font-size:0.4rem;
@@ -1435,7 +1479,7 @@ margin-left:-1.5rem
     .EEE-back,
     .SH-back {
        
-        width:60px;
+        width:56px;
         
     }
     .dce-back,
@@ -1444,7 +1488,7 @@ margin-left:-1.5rem
     .dcme-back,
     .dece-back{
        
-        width:60px;
+        width:56px;
   
     }
     .explore-matter{
