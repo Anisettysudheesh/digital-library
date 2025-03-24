@@ -169,9 +169,10 @@ font-size:1.2rem
     display:flex;
     flex-direction: column;
     gap: 2rem;
-    height:425px;
+    height:auto;
     width:500px;
     position:relative;
+    padding-bottom:1rem
     
 }
 .changepass-form input{
@@ -331,5 +332,43 @@ font-size:1.2rem
     .changepass-form h1{
       margin-left:1rem
     }
+        form:hover{
+            transform:scale(1)
+        }
 
+
+}
+@media(max-width:551px){
+    .changepass-form{
+        width:400px;
+        margin-left:-5rem;
+      
+    }
+    .changepass-form h1{
+      margin-left:1rem;
+      display:flex;
+      justify-content: center;
+      width:100%;
+      margin-left: 0px;
+    }
+    .changepass-form input {
+        width:80%
+    }
+}
+@media(max-width:451px){
+    .changepass-form{
+        width:350px;
+        margin-left:-3rem
+
+    }
+    .oldpass{
+        top:8.7rem
+
+    }
+    .newpass{
+        top:13.5rem
+    }
+    .confirmpass{
+        top:18.3rem
+    }
 }

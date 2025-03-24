@@ -981,25 +981,30 @@ flex-wrap: wrap;
         font-size:0.3rem
     }
     .logo-container-nav .tooltip-text-nav {
-       
+       visibility:visible;
         left: 325%;
-        width: 100px;
-        background-color: #eb7d28f0;
-        color: #fff;
+        width: 60px;
+        background-color:transparent;
+        color: #1C2F75;
         text-align: center;
         border-radius: 10px;
         padding: 5px 0px 5px 0px;
         position: absolute;
         z-index: 1;
-        bottom: -30%; /* Position the tooltip above the logo */
-        left: 130%;
+        bottom: -55%; /* Position the tooltip above the logo */
+        left: 120%;
         margin-left: -50px;
-        opacity: 0;
+        opacity: 1;
         transition: opacity 0.3s;
-        font-size: 0.6rem;
+        font-size: 0.45rem;
+        font-weight:800
        
        
     }  
+    .sidebar-menu-nav{
+        margin-top:-10px
+    }
+   
  
     /* .logo-container-nav:hover .tooltip-text-nav {
         display:none
@@ -1075,6 +1080,7 @@ flex-wrap: wrap;
     .nptel-page-content h1  img{
         width:30px;
         height:20px;
+        margin-top:0.3rem
 
     }
     .nptel-matter{
@@ -1121,7 +1127,7 @@ flex-wrap: wrap;
         font-size:1rem
     }
    .eb{
-    margin-top:2px
+    margin-top:10px
    }
    .nptel-logo-nav,
    .book-logo-nav,
@@ -1130,9 +1136,10 @@ flex-wrap: wrap;
    .password-logo-nav,
    .qp-logo-nav {
        width: 30px;
-       height: 30px;
+       height: 28px;
        transition:0.2s ease-in-out
    }
+  
    p.qp{
       
        top:6px;
@@ -1146,13 +1153,16 @@ flex-wrap: wrap;
    .nptel-page-content img{
     margin-top:0.2rem
 }
+.nptel-page-content{
+    margin-left:-2rem
+}
    
     
 
 }
 @media(max-width:501px){
     .navbar-name h1{
-        font-size:0.7rem;
+        font-size:0.8rem;
     }
     .navbar-name{
         gap:0.3rem;
@@ -1168,21 +1178,23 @@ flex-wrap: wrap;
     }
     .logo-container-nav .tooltip-text-nav {
        
-        left: 345%;
-        width: 80px;
-        background-color: #eb7d28f0;
-        color: #fff;
+        visibility:visible;
+        left: 325%;
+        width: 60px;
+        background-color:transparent;
+        color: #eb7d28f0;
         text-align: center;
         border-radius: 10px;
         padding: 5px 0px 5px 0px;
         position: absolute;
         z-index: 1;
-        bottom: -30%; /* Position the tooltip above the logo */
-        left: 130%;
+        bottom: -50%; /* Position the tooltip above the logo */
+        left: 120%;
         margin-left: -50px;
-        opacity: 0;
+        opacity: 1;
         transition: opacity 0.3s;
-        font-size: 0.4rem;
+        font-size: 0.45rem;
+        font-weight:800
        
        
     }  
@@ -1358,21 +1370,23 @@ margin-left:-1.5rem;
 
     .logo-container-nav .tooltip-text-nav {
        
-        left: 365%;
-        width: 80px;
-        background-color: #eb7d28f0;
-        color: #fff;
+        visibility:visible;
+        left: 325%;
+        width: 60px;
+        background-color:transparent;
+        color: #eb7d28f0;
         text-align: center;
         border-radius: 10px;
         padding: 5px 0px 5px 0px;
         position: absolute;
         z-index: 1;
-        bottom: -30%; /* Position the tooltip above the logo */
-        left: 130%;
+        bottom: -50%; /* Position the tooltip above the logo */
+        left: 120%;
         margin-left: -50px;
-        opacity: 0;
+        opacity: 1;
         transition: opacity 0.3s;
-        font-size: 0.4rem;
+        font-size: 0.45rem;
+        font-weight:800
        
        
     }  

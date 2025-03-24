@@ -69,7 +69,7 @@ function Ejournals() {
                        
                 
             <div className="nptel-page-content">
-            <h1><img src ={ejournalpagelogo} width="70px" height="60px"  style={{marginTop:"0px"}}></img>e-Journals</h1>
+            <h1><img src ={ejournalpagelogo} width="70px" height="60px"  ></img>e-Journals</h1>
             <div className="btech-branches">
 
                             <div className="btech-name">

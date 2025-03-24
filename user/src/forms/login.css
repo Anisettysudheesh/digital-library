@@ -411,12 +411,10 @@ font-weight:500
     color:rgb(65, 71, 185)
 }
 @media (max-width: 1200px) {
-    header h1 {
+    .navbar-name-login h1 {
         font-size: 2rem;
     }
-    header h5 {
-        font-size: 1.5rem;
-    }
+   
     .digilib {
         font-size: 1.25rem;
     }
@@ -437,48 +435,87 @@ font-weight:500
         font-size: 1rem;
     }
 }
+@media(max-width:1151px){
+    .navbar-name-login h1{
+        font-size:2rem
 
-@media (max-width: 992px) {
-    header h1 {
+    }
+}
+@media(max-width:1001px){
+    .navbar-name-login h1{
+        font-size:1.7rem
+    }
+     .add-login{
+        font-size:0.7rem
+    }
+
+}
+
+@media (max-width: 951px) {
+    .navbar-name-login h1 {
+        font-size: 1.8rem;
+    }
+    .add-login{
+        font-size:0.7rem
+    }
+  
+    .digilib {
+        font-size: 1rem;
+    }
+    form h3 {
+        font-size: 1.25rem;
+    }
+    form label {
+        font-size: 0.875rem;
+    }
+    .username, .password {
+        font-size: 1rem;
+    }
+    .input1::placeholder,
+    .input2::placeholder {
+        font-size: 0.875rem;
+    }
+    .submit {
+        font-size: 0.875rem;
+    }
+}
+@media(max-width:901px){
+    .navbar-name-login h1{
+        font-size:1.7rem
+    }
+    .add-login{
+        font-size:0.6rem
+    }
+}
+@media(max-width:851px){
+    .navbar-name-login h1{
+        font-size:1.4rem
+    }
+    .add-login{
+        font-size:0.6rem
+    }
+}
+@media(max-width:801px){
+    .navbar-name-login h1{
+        font-size:1.5rem
+    }
+    .add-login{
+        font-size:0.6rem
+    }
+}
+@media (max-width: 751px) {
+    .navbar-name-login h1 {
+        font-size: 1.3rem;
+    }
+    .add-login{
+        font-size:0.5rem
+    }
+    .digilib {
+        font-size: 1rem;
+    }
+    form h3 {
         font-size: 1.4rem;
     }
-    header h5 {
-        font-size: 1.25rem;
-    }
-    .digilib {
-        font-size: 1rem;
-    }
-    form h3 {
-        font-size: 1.25rem;
-    }
-    form label {
-        font-size: 0.875rem;
-    }
-    .username, .password {
-        font-size: 1rem;
-    }
-    .input1::placeholder,
-    .input2::placeholder {
-        font-size: 0.875rem;
-    }
-    .submit {
-        font-size: 0.875rem;
-    }
-}
-
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 1.5rem;
-    }
-    header h5 {
-        font-size: 1rem;
-    }
-    .digilib {
-        font-size: 1rem;
-    }
-    form h3 {
-        font-size: 1.4rem;
-    }
     form label {
         font-size: 0.75rem;
     }
@@ -493,22 +530,118 @@ font-weight:500
         font-size: 1rem;
     }
 }
-
-@media (max-width: 576px) {
-    header h1 {
-        font-size: 1.25rem;
+@media(max-width:701px){
+    .navbar-name-login h1{
+        font-size:1.2rem
     }
-    header h5 {
-        font-size: 0.875rem;
+    .add-login{
+        font-size:0.54rem
+    }
+}
+@media(max-width:651px){
+    .navbar-name-login h1{
+        font-size:1.1rem
+    }
+    .add-login{
+        font-size:0.5rem
+    }
+    .gist-logo-container-login{
+        width:9%
+    }
+    .logos-login{
+        width:6.5%
+    }
+}
+@media(max-width:601px){
+    .navbar-name-login h1{
+        font-size:1rem
+    }
+    .add-login{
+        font-size:0.4rem
+    }
+    .navbar-name-login{
+        gap:0.2rem;
+        height:70px
+
+    }
+    .navbar-login{
+        height:70px
+    }
+    .login-img{
+        height:50px
+    }
+    .logos-login{
+        height:70px;
+
+    }
+
+}
+
+@media(max-width:551px){
+    .navbar-name-login h1{
+        font-size:0.9rem
+    }
+    .add-login{
+        font-size:0.3rem
+    }
+    .navbar-name-login{
+        gap:0.2rem;
+        height:60px
+    }
+    .navbar-name-login h2{
+        font-size:0.8rem
+
+    }
+    .navbar-login{
+        height:60px
+    }
+    .gist-logo-container{
+        width:10%
+    }
+    .logos-login{
+        height:60px;
+
+    }
+ .gist-logo-container-login img{
+    height:40px
+ }
+    
+    .nba-logo-login{
+        width:30px;
+        height:30px;
+       margin-left:5px
+    }
+    .dl-logo{
+        width:60px;
+        height:60px;
+        margin-top: 0.2rem;
+    }
+
+    .naac-logo-login{
+        width:40px;
+        height:30px;
+        margin-right:0px;
+        margin-bottom:4.2px
     }
     .digilib {
         font-size: 0.75rem;
     }
     form h3 {
-        font-size: 0.875rem;
+        font-size: 1.1rem;
+        margin-left:0;
+        padding-top:5px
+        
+       
+    }
+    .userlogo{
+        top:5px;
+        left:6px
     }
     form label {
         font-size: 0.625rem;
+    }
+    .userback{
+        width:130px
     }
     .username, .password {
         font-size: 0.75rem;
@@ -518,6 +651,107 @@ font-weight:500
         font-size: 0.625rem;
     }
     .submit {
-        font-size: 0.625rem;
+        font-size: 1rem;
+        padding:0.5rem 0.2rem 0.5rem 0.2rem
     }
+
+}
+
+@media(max-width:501px){
+    .navbar-name-login h1{
+        font-size:0.8rem
+
+    }
+    .add-login{
+        font-size:0.25rem
+    }
+    .navbar-name-login{
+        height:50px;
+        gap:0.3rem
+    }
+    .navbar-name-login h2{
+        font-size:0.7rem
+    }
+    .navbar-login{
+        height:50px
+    }
+    .gist-logo-container-login{
+        /* width:8%; */
+        height:50px
+    }
+    .gist-logo-container-login img{
+        height:35px
+    }
+    .estd-login{
+        font-size:0.4rem;
+        left:0.4rem
+    }
+    .logos-login{
+        height:50px;
+
+    }
+    .nba-logo-login{
+        width:25px;
+        height:25px;
+       margin-left:5px
+    }
+    .naac-logo-login{
+        width:35px;
+        height:25px;
+        margin-right:0px;
+        margin-bottom:11px
+    }
+    h5{
+        font-size:1.5rem
+    }
+
+}
+@media(max-width:451px){
+    .navbar-name-login h1{
+        font-size:0.7rem;
+    }
+    .navbar-name-login{
+        gap:0.5rem;
+        /* width:75%; */
+        height:50px
+    }
+    
+    .navbar-name-login h2{
+        font-size:0.6rem;
+    margin-bottom:0px
+    }
+    .login-nav{
+        font-size:0.3rem
+    }
+    .navbar-login{
+        height:50px
+    }
+    .gist-logo-container-login{
+        /* width:8%; */
+        height:50px
+    }
+    .gist-logo-container-login img{
+        height:35px
+    }
+    .estd-login{
+        font-size:0.4rem;
+        left:0.4rem
+    }
+    .logos-login{
+        height:60px;
+        width:8%
+
+    }
+    .nba-logo-login{
+        width:23px;
+        height:22px;
+       margin-left:5px
+    }
+    .naac-logo-login{
+        width:32px;
+        height:25px;
+        margin-right:0px;
+        margin-bottom:11px
+    }
+
 }
