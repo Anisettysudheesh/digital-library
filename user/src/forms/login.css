@@ -574,6 +574,10 @@ font-weight:500
         height:70px;
 
     }
+    form{
+        margin-top:10px
+
+    }
 
 }
 
@@ -632,6 +636,9 @@ font-weight:500
         padding-top:5px
         
        
+    }
+    h5{
+        font-size:1.5rem
     }
     .userlogo{
         top:5px;
@@ -704,6 +711,10 @@ font-weight:500
     h5{
         font-size:1.5rem
     }
+    form{
+        margin-top:10px
+
+    }
 
 }
 @media(max-width:451px){
@@ -725,6 +736,9 @@ font-weight:500
     }
     .navbar-login{
         height:50px
+    }
+    h5{
+        font-size:1.3rem
     }
     .gist-logo-container-login{
         /* width:8%; */

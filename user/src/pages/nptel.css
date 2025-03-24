@@ -980,6 +980,7 @@ flex-wrap: wrap;
     .add-nav{
         font-size:0.3rem
     }
+    
     .logo-container-nav .tooltip-text-nav {
        visibility:visible;
         left: 325%;
@@ -992,7 +993,7 @@ flex-wrap: wrap;
         position: absolute;
         z-index: 1;
         bottom: -55%; /* Position the tooltip above the logo */
-        left: 120%;
+        left: 140%;
         margin-left: -50px;
         opacity: 1;
         transition: opacity 0.3s;
@@ -1189,7 +1190,7 @@ flex-wrap: wrap;
         position: absolute;
         z-index: 1;
         bottom: -50%; /* Position the tooltip above the logo */
-        left: 120%;
+        left: 140%;
         margin-left: -50px;
         opacity: 1;
         transition: opacity 0.3s;
