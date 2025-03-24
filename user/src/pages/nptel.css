@@ -1386,7 +1386,7 @@ margin-top:3rem
         position: absolute;
         z-index: 1;
         bottom: -50%; /* Position the tooltip above the logo */
-        left: 155%;
+        left: 165%;
         margin-left: -50px;
         opacity: 1;
         transition: opacity 0.3s;
@@ -1506,7 +1506,32 @@ margin-top:3rem
             margin-top:0.2rem
         } */
 }
+@media(max-width:421px){
+    
+    .logo-container-nav .tooltip-text-nav {
+       
+        visibility:visible;
+        left: 325%;
+        width: 60px;
+        background-color:transparent;
+        color: #eb7d28f0;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0px 5px 0px;
+        position: absolute;
+        z-index: 1;
+        bottom: -50%; /* Position the tooltip above the logo */
+        left: 175%;
+        margin-left: -50px;
+        opacity: 1;
+        transition: opacity 0.3s;
+        font-size: 0.45rem;
+        font-weight:800
+       
+       
+    }  
 
+}
 
 
 
