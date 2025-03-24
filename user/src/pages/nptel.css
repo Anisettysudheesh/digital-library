@@ -130,7 +130,7 @@ body::before {
     height: 79px;
     flex-shrink: 0;
     aspect-ratio: 1/1;
-    width:3.5%;
+    width:3.2%;
 
   
    
@@ -466,9 +466,7 @@ flex-wrap: wrap;
     .nptel-page-content{
         width:100%
     }
-    .sidebar-menu-nav{
-        height:62vh
-    }
+    
   
  
  }
@@ -546,7 +544,7 @@ flex-wrap: wrap;
     }
     .logo-container-nav .tooltip-text-nav {
        
-        left: 155%;
+        left: 180%;
        
        
     }   
@@ -574,7 +572,7 @@ flex-wrap: wrap;
     }
     .logo-container-nav .tooltip-text-nav {
        
-        left: 155%;
+        left: 200%;
        
        
     }   
@@ -600,7 +598,7 @@ flex-wrap: wrap;
     }
     .logo-container-nav .tooltip-text-nav {
        
-        left: 155%;
+        left: 200%;
        
        
     }   
