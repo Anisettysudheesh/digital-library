@@ -20,13 +20,16 @@ body {
     grid-area: header;
     display: flex;
     border-bottom: 1px solid black;
-    height:79px
+    height:79px;
+    position: fixed;
+    width:100%;
+
    
 }
 
-.header img {
+.gist-logo-container-user img {
     width: 100%;
-    height: 65px;
+    height: 60px;
    
  
 }
@@ -41,21 +44,22 @@ body {
     margin-right: 0px;
     border-bottom-left-radius: 20px;
     height:79px;
-    width:100%
+
     
 }
 .gist-logo-container-user{
     display: flex;
     flex-direction:column;
-    position:relative;
-    width:4%
+    
+    width:5%
 
 }
 .estd-user{
-    position:absolute;
+    display:flex;
+    justify-content: center;
+   
     font-size:0.5rem;
-    bottom:0;
-    left:0.7rem;
+   
     font-weight:bold;
     
 
@@ -224,7 +228,8 @@ body {
     grid-area: middle;
     display:flex;
     flex-direction:column;
-    width:90%
+    width:100%;
+    margin-top:4.8rem
    
     
 }
@@ -322,25 +327,85 @@ margin-top: 0.5rem;
     box-shadow:1px 1px 1px 1.5px  black inset
 }
 
+@media(max-width:1501px){
+    
+    .header-name-dashboard h1{
+        font-size:1.8rem
+    }
+   
+  
+  
+    .logo-container .tooltip-text {
+       
+        left: 155%;
+       
+       
+    }   
+    
+    .sidebar-menu{
+        height:62vh
+    }
+  
+ 
+ }
 @media(max-width:1401px){
-    .header-name-dashboard{
-        width:75%
-       }
+   
        .gist-logo-container-user{
         width:5%
        }
+       .logo-container .tooltip-text {
+       
+        left: 155%;
+       
+       
+    }  
 
 }
-
-@media(max-width:1280px){
-    .header-name-dashboard{
-        width:88%
-       }
-       .gist-logo-container-user{
+@media(max-width:1351px){
+    
+   
+    .gist-logo-container-user{
+     width:5%
+    }
+   
+   
+    .logo-container .tooltip-text{
+       
+        left: 155%;
+       
+       
+    }   
+  
+ 
+ }
+ @media(max-width:1301px){
+    /* .navbar-name{
+     width: 100%
+    } */
+    .gist-logo-container-user{
+     width:5%
+}
+ }
+ @media(max-width:1251px){
+   
+    .gist-logo-container-user{
         width:5%
-       }
+    }
+   
 
-}
+    .logo-container .tooltip-text {
+       
+        left: 155%;
+       
+       
+    }   
+   
+   
+  
+ 
+ }
+
+
 @media(max-width:1201px){
     .header-name-dashboard{
         width:88%
@@ -357,9 +422,7 @@ margin-top: 0.5rem;
 
 }
 @media(max-width:1151px){
-    .header-name-dashboard{
-        width:90%
-       }
+    
        .gist-logo-container-user{
         width:5%
     }
@@ -369,9 +432,7 @@ margin-top: 0.5rem;
        
        
     }  
-    .gist-logo-container-user{
-        width:6%
-    }
+   
     .header-name h1{
         font-size:2rem
 
@@ -381,13 +442,16 @@ margin-top: 0.5rem;
 
 @media(max-width:1001px){
     .header-name-dashboard h1{
-        font-size:2rem
+        font-size:1.7rem
     }
     .logo-container .tooltip-text {
        
         left: 195%;
        
        
+    }
+    .add-dash{
+        font-size:0.7rem
     } 
 
 }
@@ -400,9 +464,7 @@ margin-top: 0.5rem;
     .add-dash{
         font-size:0.7rem
     }
-    .header-name-dashboard{
-        width:86%
-    }
+   
  }
  @media(max-width:901px){
     .header-name-dashboard h1{
@@ -415,14 +477,12 @@ margin-top: 0.5rem;
 }
 @media(max-width:851px){
     .header-name-dashboard h1{
-        font-size:1.6rem
+        font-size:1.4rem
     }
     .add-dash{
         font-size:0.6rem
     }
-    .header-name-dashboard{
-        width:85%
-    }
+   
     .gist-logo-container-user{
         width:7%
     }
@@ -434,9 +494,7 @@ margin-top: 0.5rem;
     .add-dash{
         font-size:0.6rem
     }
-    .header-name-dashboard{
-        width:85%
-    }
+   
     .gist-logo-container-user{
         width:7%
     }
@@ -450,28 +508,21 @@ margin-top: 0.5rem;
 }
 @media(max-width:751px){
     .header-name-dashboard h1{
-        font-size:1.4rem
-    }
-    .add-dash{
-        font-size:0.6rem
-    }
-    .header-name-dashboard{
-        width:85%
-    }
-    .gist-logo-container-user{
-        width:7%
-    }
-}
-@media(max-width:701px){
-    .header-name-dashboard h1{
         font-size:1.3rem
     }
     .add-dash{
-        font-size:0.6rem
+        font-size:0.5rem
     }
-    .header-name-dashboard{
-        width:85%
+  
+}
+@media(max-width:701px){
+    .header-name-dashboard h1{
+        font-size:1.2rem
     }
+    .add-dash{
+        font-size:0.54rem
+    }
+    
     .gist-logo-container-user{
         width:8%
     }
@@ -484,22 +535,23 @@ margin-top: 0.5rem;
 }
 @media(max-width:651px){
     .header-name-dashboard h1{
-        font-size:1.2rem
+        font-size:1.1rem
     }
     .add-dash{
-        font-size:0.6rem
+        font-size:0.5rem
     }
-    .header-name-dashboard{
-        width:85%
-    }
+   
     .gist-logo-container-user{
-        width:8%
+        width:9%
     }
     .nptel-content,
     .journal-content,.ebook-content{
         width: 150px;
         height: 150px;
 
+    }
+    .logos-user{
+        width:6.5%
     }
     
 }
@@ -510,12 +562,18 @@ margin-top: 0.5rem;
     .add-dash{
         font-size:0.4rem
     }
-    .header-name-dashboard{
-        width:85%
+    .header-name{
+        gap:0.2rem
     }
-    .gist-logo-container-user{
-        width:9%
+    .middle-content-1{
+        width:200px;
+        font-size:10px
     }
+    .middle-content-2{
+        font-size:0.8rem
+    }
+   
+ 
     .nptel-content,
     .journal-content,.ebook-content{
         width: 140px;
@@ -527,7 +585,7 @@ margin-top: 0.5rem;
     }
     .header-name-dashboard{
         height:70px;
-        width:81%
+        
     }
     .logos-user{
         height:70px
@@ -535,8 +593,282 @@ margin-top: 0.5rem;
     .header-name-dashboard{
         gap:0.2rem
     }
+    .gist-logo-container-user img{
+        height:50px
+
+    }
 
 }
+@media(max-width:551px){
+    .header-name-dashboard h1{
+        font-size:0.9rem
+    }
+    .add-dash{
+        font-size:0.3rem
+    }
+    .header-name-dashboard{
+        gap:0.2rem
+    }
+    .header{
+        height:60px
+    }
+    .header-name-dashboard h2{
+        font-size:0.8rem
+    }
+    .header-name-dashboard{
+        height:60px;
+        
+    }
+    .logos-user{
+        height:60px
+    }
+    .gist-logo-container-user img{
+        height:40px
+
+    }
+    .nptel-content,
+    .journal-content,.ebook-content{
+        width: 130px;
+        height: 130px;
+
+    }
+    .gist-logo-container-user{
+        width:10%
+    }
+    .nba-logo-user{
+        width:30px;
+        height:30px;
+       margin-left:5px
+    }
+
+    .naac-logo-user{
+        width:40px;
+        height:30px;
+        margin-right:0px;
+        margin-bottom:4.2px
+    }
+    
+    .nptel-logo,
+    .book-logo,
+    .journal-logo,
+    .logout-logo,
+    .password-logo,
+    .qp-logo {
+        width: 30px;
+        height: 30px;
+        transition:0.2s ease-in-out
+    }
+    p.qp{
+       
+        top:6px;
+        left:6.6px;
+        font-size:0.4rem
+     
+    }
+    .sidebar-menu{
+     height:75vh
+    }
+}
+@media(max-width:501px){
+    .header-name-dashboard h1{
+        font-size:0.7rem
+    }
+    .add-dash{
+        font-size:0.25rem
+    }
+    .logo-containe .tooltip-text{
+       
+        left: 345%;
+        width: 80px;
+        background-color: #eb7d28f0;
+        color: #fff;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0px 5px 0px;
+        position: absolute;
+        z-index: 1;
+        bottom: -30%; /* Position the tooltip above the logo */
+        left: 130%;
+        margin-left: -50px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-size: 0.4rem;
+       
+       
+    }  
+    .nptel-logo,
+    .book-logo,
+    .journal-logo,
+    .logout-logo,
+    .password-logo,
+    .qp-logo {
+        width: 30px;
+        height: 30px;
+        transition:0.2s ease-in-out
+    }
+    p.qp{
+       
+        top:6px;
+        left:6.6px;
+        font-size:0.4rem
+     
+    }
+    .header-name-dashboard h2{
+        font-size:0.7rem
+    }
+    .header{
+        height:50px
+    }
+    .header-name-dashboard{
+        height:50px;
+        gap:0.3rem;
+        
+    }
+    .logos-user{
+        height:50px
+    }
+    .gist-logo-container-user img{
+        height:35px
+
+    }
+    .nptel-content,
+    .journal-content,.ebook-content{
+        width: 120px;
+        height: 120px;
+
+    }
+    .gist-logo-container-user{
+      height:50px
+    }
+    .nba-logo-user{
+        width:25px;
+        height:25px;
+       margin-left:5px
+    }
+
+    .naac-logo-user{
+        width:35px;
+        height:25px;
+        margin-right:0px;
+        margin-bottom:11px
+    }
+   
+    .nptel-logo,
+    .book-logo,
+    .journal-logo,
+    .logout-logo,
+    .password-logo,
+    .qp-logo {
+        width: 30px;
+        height: 30px;
+        transition:0.2s ease-in-out
+    }
+    p.qp{
+       
+        top:6px;
+        left:6.6px;
+        font-size:0.4rem
+     
+    }
+    .sidebar-menu{
+     height:75vh
+    }
+}
+@media(max-width:451px){
+    .header-name-dashboard h1{
+        font-size:0.7rem;
+    }
+    .header-name-dashboard{
+        gap:0.5rem;
+        /* width:75%; */
+        height:50px
+    }
+    
+    .header-name-dashboard h2{
+        font-size:0.6rem;
+    margin-bottom:0px
+    }
+    .add-dash{
+        font-size:0.3rem
+    }
+  
+
+    .logo-container .tooltip-text {
+       
+        left: 365%;
+        width: 80px;
+        background-color: #eb7d28f0;
+        color: #fff;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0px 5px 0px;
+        position: absolute;
+        z-index: 1;
+        bottom: -30%; /* Position the tooltip above the logo */
+        left: 130%;
+        margin-left: -50px;
+        opacity: 0;
+        transition: opacity 0.3s;
+        font-size: 0.4rem;
+       
+       
+    }  
+    .nptel-logo,
+    .book-logo,
+    .journal-logo,
+    .logout-logo,
+    .password-logo,
+    .qp-logo {
+        width: 30px;
+        height: 30px;
+        transition:0.2s ease-in-out
+    }
+    p.qp{
+       
+        top:6px;
+        left:6.6px;
+        font-size:0.4rem
+     
+    }
+ 
+    /* .logo-container-nav:hover .tooltip-text-nav {
+        display:none
+        
+    } */
+    
+    .header{
+        height:50px
+    }
+    .gist-logo-container-user{
+        /* width:8%; */
+        height:50px
+    }
+    .gist-logo-container-user img{
+        height:35px
+    }
+    .estd-user{
+        font-size:0.4rem;
+        left:0.4rem
+    }
+    .logos-user{
+        height:60px;
+        width:8%
+
+    }
+    .nba-logo-user{
+        width:23px;
+        height:22px;
+       margin-left:5px
+    }
+    .naac-logo-user{
+        width:32px;
+        height:25px;
+        margin-right:0px;
+        margin-bottom:11px
+    }
+    
+}
+
 
 
 

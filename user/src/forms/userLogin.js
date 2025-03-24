@@ -7,6 +7,9 @@ import "./login.css";
 import userlogo from "../logos/account_circle_28dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png";
 import dlogo from "../logos/DLlogo.jpg";
 import {jwtDecode} from 'jwt-decode';
+import nbalogo from "../logos/nbalogo.png";
+import naaclogo from "../logos/naaclogo.png";
+import "../pages/dashboard.css"
 
 function UserLogin() {
     const [username, setUsername] = useState("");
@@ -62,14 +65,29 @@ function UserLogin() {
 
     return (
         <div>
-            <header>
-                <img src={logo} alt="logo" />
-                <div className="header-name">
-                    <h1>GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
-                    <h2>(AUTONOMOUS INSTITUTION)</h2>
-                    <h6 className="add"> 3<sup>rd</sup>Mile, Nellore-Bombay Highway,Gangavaram(V),Kovur(Md),SPSR Nellore Dt.Andhra Pradesh,India-524137</h6>
-                </div>
-            </header>
+            
+             <div className="navbar"  style={{marginTop:"-5rem"}}>
+                                   <div className="gist-logo-container">
+                                   <Link to="/UserDashboard"> <img className="nav-img" src={logo} alt="logo" /></Link> 
+                                   <div className="estd">Estd:2008</div>
+           
+                                   </div>
+                               
+                                  <div className="navbar-name">
+                                      <h1>GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+                                      <h2>(AUTONOMOUS INSTITUTION)</h2>
+                                      <h6 className="add-nav"> 3<sup>rd</sup>Mile, Nellore-Bombay Highway,Gangavaram(V),Kovur(Md),SPSR Nellore Dt.Andhra Pradesh,India-524137</h6>
+                      
+                                  </div>
+                                  <div className="logos"> 
+                                                         <img className='nba-logo' src={nbalogo} alt="nba"></img>
+                                                         <img className='naac-logo' src={naaclogo} alt="naac"></img>
+                                  
+                                                         </div>
+                        </div>
+                        <div className='login-main-content' style={{marginTop:"5rem"}}>
+
+                       
             <h5>LIBRARY AND INFORMATION CENTER</h5>
             <img className="dl-logo" src={dlogo} alt="Digital Library Logo" />
             <span className="digilib">DIGITAL LIBRARY</span>
@@ -101,6 +119,7 @@ function UserLogin() {
                 )}
                 
             </center>
+            </div>
         </div>
     );
 }

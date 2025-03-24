@@ -64,8 +64,8 @@ function UserDashboard() {
                     <h6 className="add-dash"> 3<sup>rd</sup>Mile, Nellore-Bombay Highway,Gangavaram(V),Kovur(Md),SPSR Nellore Dt.Andhra Pradesh,India-524137</h6>
                 </div>
                  <div className="logos-user"> 
-                        <img className='nba-logo-user' style={{width:"40px",height:"40px",marginLeft:"5px"}} src={nbalogo} alt="nba"></img>
-                         <img className='naac-logo-user' style={{width:"50px",height:"40px",marginBottom:"4.2px"}} src={naaclogo} alt="naac"></img>
+                        <img className='nba-logo-user' src={nbalogo} alt="nba"></img>
+                         <img className='naac-logo-user' src={naaclogo} alt="naac"></img>
                 
                      </div>
                 

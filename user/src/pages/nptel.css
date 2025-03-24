@@ -608,9 +608,7 @@ flex-wrap: wrap;
         font-size:2rem
 
     }
-    .gist-logo-container{
-        width:6%
-    }
+    
   
  
  }
@@ -795,7 +793,7 @@ flex-wrap: wrap;
     }
     
  }
- @media(max-width:700px){
+ @media(max-width:701px){
     .navbar-name h1{
         font-size:1.2rem
     }
@@ -832,20 +830,7 @@ flex-wrap: wrap;
   
     }
    
-    .line{
-        width:30px;
-        left:15.5rem;
-        top:0.6rem
-    }
-    .arrow-1{
-        width:15px;
-        left:16.5rem
-    }
-    .arrow-2{
-        width:15px;
-        left:16.5rem;
-        top:0.9rem
-    }
+    
  }
  @media(max-width:651px){
     .navbar-name h1{
@@ -1081,11 +1066,11 @@ flex-wrap: wrap;
         height:40px
     }
     .navbar-img{
-        width:100%;
+    
         height:60px
     }
     .nptel-page-content h1{
-        font-size:1rem;
+        font-size:1.3rem;
     }
     .nptel-page-content h1  img{
         width:30px;
@@ -1093,7 +1078,7 @@ flex-wrap: wrap;
 
     }
     .nptel-matter{
-        font-size:0.5rem
+        font-size:0.8rem
     }
     .btech-name{
         font-size:1rem
@@ -1158,6 +1143,9 @@ flex-wrap: wrap;
    .sidebar-menu-nav{
     height:75vh
    }
+   .nptel-page-content img{
+    margin-top:0.2rem
+}
    
     
 
@@ -1236,7 +1224,7 @@ flex-wrap: wrap;
         left:0.4rem
     }
     .logos{
-        height:60px;
+        height:50px;
 
     }
     .nba-logo{
@@ -1280,20 +1268,23 @@ flex-wrap: wrap;
         height:40px
     }
     .nptel-page-content h1{
-        font-size:1rem;
+        font-size:1.4rem;
     }
     .nptel-page-content h1  img{
         width:30px;
         height:20px;
+            margin-top:0.4rem
+   
 
     }
+   
     .nptel-page-content{
 margin-left:-1.5rem;
 
     }
 
     .nptel-matter{
-        font-size:0.5rem
+        font-size:0.8rem
     }
     .btech-name{
         font-size:1rem
@@ -1428,13 +1419,13 @@ margin-left:-1.5rem;
 
     }
     .nba-logo{
-        width:25px;
-        height:25px;
+        width:23px;
+        height:22px;
        margin-left:5px
     }
     .naac-logo{
         width:32px;
-        height:30px;
+        height:25px;
         margin-right:0px;
         margin-bottom:11px
     }
@@ -1445,7 +1436,7 @@ margin-left:-1.5rem;
     .EEE-back,
     .SH-back {
        
-        width:50px;
+        width:55px;
         
     }
     .dce-back,
@@ -1454,23 +1445,10 @@ margin-left:-1.5rem;
     .dcme-back,
     .dece-back{
        
-        width:50px;
+        width:55px;
   
     }
-    .explore-matter{
-        font-size:0.5rem;
-        margin-top: 0.2rem;
     
-    }
-    .line{
-       display:none
-    }
-    .arrow-1{   
-        display:none
-    }
-    .arrow-2{
-        display:none
-    }
     .swayam-link img{
         width:60px;
         height:40px
@@ -1482,7 +1460,7 @@ margin-left:-1.5rem;
     }
    
     .nptel-page-content h1{
-        font-size:1rem;
+        font-size:1.3rem;
     }
     .nptel-page-content h1  img{
         width:30px;
@@ -1494,7 +1472,16 @@ margin-left:-1.5rem;
 margin-left:-1.5rem;
 
     }
+    .nptel-matter{
+        font-size: 0.65rem;
+    }
+    .explore-matter{
+        font-size:0.8rem
 
+    }
+        .nptel-page-content img{
+            margin-top:0.2rem
+        }
 }
 
 
