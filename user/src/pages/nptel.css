@@ -1138,6 +1138,10 @@ flex-wrap: wrap;
        height: 28px;
        transition:0.2s ease-in-out
    }
+
+   .qp-logo-nav{
+    margin-bottom:0.3rem
+   }
   
    p.qp{
       
@@ -1153,7 +1157,8 @@ flex-wrap: wrap;
     margin-top:0.2rem
 }
 .nptel-page-content{
-    margin-left:-2rem
+    margin-left:-2rem;
+    margin-top:3.5rem
 }
    
     
@@ -1291,6 +1296,7 @@ flex-wrap: wrap;
    
     .nptel-page-content{
 margin-left:-1.5rem;
+margin-top:3rem
 
     }
 
@@ -1380,7 +1386,7 @@ margin-left:-1.5rem;
         position: absolute;
         z-index: 1;
         bottom: -50%; /* Position the tooltip above the logo */
-        left: 120%;
+        left: 155%;
         margin-left: -50px;
         opacity: 1;
         transition: opacity 0.3s;
@@ -1475,14 +1481,18 @@ margin-left:-1.5rem;
     .nptel-page-content h1{
         font-size:1.3rem;
     }
-    .nptel-page-content h1  img{
+    /* .nptel-page-content h1  img{
         width:30px;
         height:25px;
-        /* margin-top:-0.2rem */
+        margin-top:0.1rem
 
+    } */
+    .nptel-page-content-img{
+        margin-top:0.3rem
     }
     .nptel-page-content{
 margin-left:-1.5rem;
+margin-top:3rem
 
     }
     .nptel-matter{
@@ -1492,9 +1502,9 @@ margin-left:-1.5rem;
         font-size:0.8rem
 
     }
-        .nptel-page-content img{
+        /* .nptel-page-content img{
             margin-top:0.2rem
-        }
+        } */
 }
 
 

@@ -77,7 +77,7 @@ function Nptel() {
                 
             <div className="nptel-page-content">
                 <div>
-                <h1><img src={nptelpagelogo} width="80px" height="50px"  alt=""></img>NPTEL</h1>
+                <h1><img className="nptel-page-content-img" src={nptelpagelogo} width="80px" height="50px"  alt=""></img>NPTEL</h1>
 
                 </div>
                 <div className="nptel-matter">
