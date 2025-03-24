@@ -408,9 +408,9 @@ margin-top: 0.5rem;
 
 
 @media(max-width:1201px){
-    .header-name-dashboard{
+    /* .header-name-dashboard{
         width:88%
-       }
+       } */
        .gist-logo-container-user{
         width:5%
     }
