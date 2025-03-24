@@ -60,7 +60,7 @@ margin-bottom: 0px;
     font-family:Poppins;
     font-size:1.2rem;
  */
- .navbar{
+ .navbar-login{
     grid-area: navbar;
     display: flex;
     
@@ -72,14 +72,14 @@ margin-bottom: 0px;
     
     
 }
-.nav-img{
+.login-img{
     width: 100%;
     height: 60px;
     
    
     
 }
-.navbar-name{
+.navbar-name-login{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,14 +95,14 @@ margin-bottom: 0px;
 
 }
 
-.gist-logo-container{
+.gist-logo-container-login{
     display: flex;
     flex-direction:column;
    
     width:5%
 
 }
-.estd{
+.estd-login{
     display:flex;
     justify-content: center;
    
@@ -112,7 +112,7 @@ margin-bottom: 0px;
     
 
 }
-.navbar-name h1{
+.navbar-name-login h1{
     margin: 0px;
     color: #f8f8f8;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -121,7 +121,7 @@ margin-bottom: 0px;
     line-height: normal;
     margin-top: -8px;
 }
-.navbar-name h2{
+.navbar-name-login h2{
     margin: 0px;
     color: #000000;
     padding: 0px;
@@ -129,26 +129,26 @@ margin-bottom: 0px;
     margin-bottom: 5px;
     font-size: 1.2rem;
 }
-.add-nav{
+.add-login{
     margin: 0px;
     font-size: 0.8rem;
     margin-top: -10px;
    
 }
-.nba-logo{
+.nba-logo-login{
     width:40px;
     height:40px;
    margin-left:5px
 
 }
-.naac-logo{
+.naac-logo-login{
     width:50px;
     height:40px;
     margin-right:0px;
     margin-bottom:4.2px
 
 }
-.logos{
+.logos-login{
     display:flex;
     flex-direction: column;
     justify-content: center;

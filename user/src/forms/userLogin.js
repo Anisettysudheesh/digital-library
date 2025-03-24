@@ -66,22 +66,22 @@ function UserLogin() {
     return (
         <div>
             
-             <div className="navbar"  style={{marginTop:"-5rem"}}>
-                                   <div className="gist-logo-container">
-                                   <Link to="/UserDashboard"> <img className="nav-img" src={logo} alt="logo" /></Link> 
-                                   <div className="estd">Estd:2008</div>
+             <div className="navbar-login"  style={{marginTop:"-5rem"}}>
+                                   <div className="gist-logo-container-login">
+                                   <Link to="/UserDashboard"> <img className="login-img" src={logo} alt="logo" /></Link> 
+                                   <div className="estd-login">Estd:2008</div>
            
                                    </div>
                                
-                                  <div className="navbar-name">
+                                  <div className="navbar-name-login">
                                       <h1>GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
                                       <h2>(AUTONOMOUS INSTITUTION)</h2>
-                                      <h6 className="add-nav"> 3<sup>rd</sup>Mile, Nellore-Bombay Highway,Gangavaram(V),Kovur(Md),SPSR Nellore Dt.Andhra Pradesh,India-524137</h6>
+                                      <h6 className="add-login"> 3<sup>rd</sup>Mile, Nellore-Bombay Highway,Gangavaram(V),Kovur(Md),SPSR Nellore Dt.Andhra Pradesh,India-524137</h6>
                       
                                   </div>
-                                  <div className="logos"> 
-                                                         <img className='nba-logo' src={nbalogo} alt="nba"></img>
-                                                         <img className='naac-logo' src={naaclogo} alt="naac"></img>
+                                  <div className="logos-login"> 
+                                                         <img className='nba-logo-login' src={nbalogo} alt="nba"></img>
+                                                         <img className='naac-logo-login' src={naaclogo} alt="naac"></img>
                                   
                                                          </div>
                         </div>

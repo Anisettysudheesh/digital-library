@@ -110,13 +110,13 @@ body::before {
 }
 .nba-logo{
     width:40px;
-    height:40px;
+    height:35px;
    margin-left:5px
 
 }
 .naac-logo{
     width:50px;
-    height:40px;
+    height:35px;
     margin-right:0px;
     margin-bottom:4.2px
 
@@ -130,7 +130,7 @@ body::before {
     height: 79px;
     flex-shrink: 0;
     aspect-ratio: 1/1;
-    width:3.5%
+    width:3.5%;
 
   
    
