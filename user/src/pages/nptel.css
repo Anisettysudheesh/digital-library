@@ -273,9 +273,9 @@ body::before {
 }
 .nptel-matter{
     font-size:1.1rem;
-    text-align:center;
+    text-align:justify;
     margin:0 1rem 0 1rem;
-    font-weight:600
+    font-weight:600;
 
 }
 
@@ -984,7 +984,7 @@ flex-wrap: wrap;
         left: 325%;
         width: 60px;
         background-color:transparent;
-        color: #1C2F75;
+        color: #d00b15;
         text-align: center;
         border-radius: 10px;
         padding: 5px 0px 5px 0px;
@@ -1186,7 +1186,7 @@ flex-wrap: wrap;
         left: 325%;
         width: 60px;
         background-color:transparent;
-        color: #eb7d28f0;
+        color: #5413ccf0;
         text-align: center;
         border-radius: 10px;
         padding: 5px 0px 5px 0px;
@@ -1379,7 +1379,7 @@ margin-top:3rem
         left: 325%;
         width: 60px;
         background-color:transparent;
-        color: #eb7d28f0;
+        color: #0b910bf0;
         text-align: center;
         border-radius: 10px;
         padding: 5px 0px 5px 0px;
@@ -1405,6 +1405,9 @@ margin-top:3rem
         height: 30px;
         transition:0.2s ease-in-out
     }
+    .sidebar-menu-nav{
+        margin-left:0.1rem
+    }
     p.qp{
        
         top:6px;
@@ -1417,7 +1420,7 @@ margin-top:3rem
         display:none
         
     } */
-    
+  
     .navbar{
         height:50px
     }
@@ -1430,7 +1433,7 @@ margin-top:3rem
     }
     .estd{
         font-size:0.4rem;
-        left:0.4rem
+        left:0.6rem
     }
     .logos{
         height:60px;
@@ -1514,7 +1517,7 @@ margin-top:3rem
         left: 325%;
         width: 60px;
         background-color:transparent;
-        color: #eb7d28f0;
+        color: #f10cdaf0;
         text-align: center;
         border-radius: 10px;
         padding: 5px 0px 5px 0px;

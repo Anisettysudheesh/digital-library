@@ -36,7 +36,7 @@ function Changepass() {
         const Data = { oldpass, newpass };
 
         try {
-            const SendData = await axios.post("http://localhost:5000/changepass", Data, {
+            const SendData = await axios.post("https://digital-library-backend-812p.onrender.com/changepass", Data, {
                 headers: {
                     "x-token": token || storedToken
                 }

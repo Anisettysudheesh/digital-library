@@ -51,7 +51,7 @@ body {
     display: flex;
     flex-direction:column;
     
-    width:5%
+    width:6%
 
 }
 .estd-user{
@@ -262,7 +262,7 @@ margin-top: 0.5rem;
    margin-right:4rem;
    font-weight:550;
     font-size:1rem;
-    text-align: center;
+    text-align: justify;
 }
 .middle-content-2 b{
     font-weight:800;
@@ -680,7 +680,7 @@ margin-top: 0.5rem;
          position: absolute;
          z-index: 1;
          bottom: -55%; /* Position the tooltip above the logo */
-         left: 140%;
+         left: 150%;
          margin-left: -50px;
          opacity: 1;
          transition: opacity 0.3s;
@@ -707,9 +707,9 @@ margin-top: 0.5rem;
         font-size:0.4rem
      
     }
-    .sidebar-menu{
+    /* .sidebar-menu{
      height:75vh
-    }
+    } */
 }
 @media(max-width:501px){
     .header-name-dashboard h1{
@@ -720,7 +720,8 @@ margin-top: 0.5rem;
     }
     .middle-content-1{
         width:250px;
-        font-size:0.8rem
+        font-size:0.8rem;
+        margin-top:-0.5rem
     }
     .middle-content-2{
         font-size:0.7rem
@@ -742,6 +743,10 @@ margin-top: 0.5rem;
     .journal-middle-logo {
         width: 100px;
         height: 100px;
+    }
+    .estd-user{
+        margin-left:5px
+
     }
     p.qp{
        
@@ -809,6 +814,10 @@ margin-top: 0.5rem;
     }
     .sidebar-menu{
      height:75vh
+    }
+    .middle-content-2{
+        width:90%;
+        text-align: justify;
     }
 }
 @media(max-width:451px){
@@ -890,7 +899,63 @@ margin-top: 0.5rem;
         margin-right:0px;
         margin-bottom:11px
     }
+    .middle-content-2{
+        width:100%;
+        text-align: justify;
+        margin-left:-10px
+    }
+    .logo-container .tooltip-text{
+       
+        visibility:visible;
+        left: 325%;
+        width: 60px;
+        background-color:transparent;
+        color: #f10cdaf0;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0px 5px 0px;
+        position: absolute;
+        z-index: 1;
+        bottom: -55%; /* Position the tooltip above the logo */
+        left: 190%;
+        margin-left: -50px;
+        opacity: 1;
+        transition: opacity 0.3s;
+        font-size: 0.45rem;
+        font-weight:800
+       
+       
+    }  
+    .sidebar-menu{
+        margin-left:0.1rem
+    }
     
+}
+@media(max-width:421px){
+      
+    .logo-container .tooltip-text{
+       
+        visibility:visible;
+        left: 325%;
+        width: 60px;
+        background-color:transparent;
+        color: #f10cdaf0;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0px 5px 0px;
+        position: absolute;
+        z-index: 1;
+        bottom: -55%; /* Position the tooltip above the logo */
+        left: 190%;
+        margin-left: -50px;
+        opacity: 1;
+        transition: opacity 0.3s;
+        font-size: 0.45rem;
+        font-weight:800
+       
+       
+    }  
+
 }
 
 
