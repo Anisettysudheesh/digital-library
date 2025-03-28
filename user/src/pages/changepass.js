@@ -28,6 +28,10 @@ function Changepass() {
             alert("New password and confirm password do not match");
             return;
         }
+        if (!oldpass || !newpass) {
+            alert("Both old and new passwords are required");
+            return;
+        }
 
         const Data = { oldpass, newpass };
 

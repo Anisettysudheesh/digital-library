@@ -43,7 +43,7 @@ function UserDashboard() {
     };
 
     fetchData()
-},[storedToken,navigate]);
+},[storedToken,navigate,token]);
 
 
 

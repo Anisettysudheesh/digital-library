@@ -9,7 +9,10 @@ dotEnv.config();
 const jwt = require('jsonwebtoken');
 app.use(express.json());
 const middleware = require('./middleware/middleware');
-console.log(process.env.AdminEmail, process.env.AdminPassword);
+if (!process.env.jwtSecret || !process.env.AdminEmail || !process.env.AdminPassword) {
+    console.error("Environment variables are missing.");
+    process.exit(1);
+}
 
 app.get("/", (req, res) => {
     res.send('Hello World');
@@ -113,4 +116,7 @@ app.post("/changepass",middleware, async (req,res)=>{
 
 
 
-app.listen(5000, () => { console.log('Server is running on port 5000') });
+app.listen(5000, () => { console.log('Server is running on port 5000') })
+.on('error', (err) => {
+    console.error("Failed to start server:", err);
+});

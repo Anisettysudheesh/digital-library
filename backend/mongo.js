@@ -4,7 +4,12 @@ require('dotenv').config();
 
 mongoose.connect(process.env.MONGO_URL)
 .then(()=>{console.log('Connected to MongoDB')})
-.catch((err)=>{console.log('Error:',err)});
+.catch((err)=>{console.log('Error:',err)});  
+
+if (!process.env.MONGO_URL) {
+    console.error("MONGO_URL is not defined in the environment variables.");
+    process.exit(1);
+}
 
 const userSchema = new mongoose.Schema({
     username:{
