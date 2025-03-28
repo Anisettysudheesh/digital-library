@@ -745,7 +745,7 @@ margin-top: 0.5rem;
         height: 100px;
     }
     .estd-user{
-        margin-left:5px
+       left:0.6rem
 
     }
     p.qp{
@@ -881,7 +881,7 @@ margin-top: 0.5rem;
     }
     .estd-user{
         font-size:0.4rem;
-        left:0.4rem
+        left:0.6rem
     }
     .logos-user{
         height:60px;
